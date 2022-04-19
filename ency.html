@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enncyclopedia</title>
+
+    <script>
+
+        fetch("terms.json")
+            .then(response => response.json())
+            .then(data => {
+                let table = document.getElementById("term_table");
+                let tbody = document.createElement("tbody");
+                table.appendChild(tbody);
+
+                //loop through the data and create a row for each item
+
+                var terms = data.terms;
+
+                //loop in scammers and get name and reason
+                for (var i = 0; i < terms.length; i++) {
+                    var termm = terms[i];
+                    var Term = termm.term;
+                    var Def = termm.def;
+
+                    //create a row for each item
+                    var row = document.createElement("tr");
+                    tbody.appendChild(row);
+
+                    //create a cell for the name
+                    var term_cell = document.createElement("td");
+                    term_cell.innerHTML = Term;
+                    row.appendChild(term_cell);
+
+                    //create a cell for the reason
+                    var def_cell = document.createElement("td");
+                    def_cell.innerHTML = Def;
+                    row.appendChild(def_cell);
+                }
+
+            });
+
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("term_sh");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("term_table");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+
+
+    </script>
+    <style>
+        #navbar {
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #d5d5d5;
+            height: 50px;
+            padding: 10px;
+        }
+
+        #navbar a {
+            color: #555;
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 10px;
+            float: right;
+            border: 1px solid #d5d5d5;
+        }
+
+        #navbar a:active a:visited {
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 10px;
+            float: right;
+            border: 1px solid #d5d5d5;
+        }
+
+        #term_table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 5px solid #d5d5d5;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #term_table td {
+            border: 5px solid #d5d5d5;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+        }
+
+        tbody>tr>:nth-child(1) {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="ency.html">Encyclopedia</a>
+        <a href="mm.html">MM Servers</a>
+        <a href="dwc.html">DWC List</a>
+        <a href="index.html">Home</a>
+    </div>
+
+    <br>
+
+    <div id="main_page" style="text-align: center;">
+        <!-- make search -->
+        <input style="text-align: center;" type="text" id="term_sh" onkeyup="myFunction()" placeholder="Search...">
+        <br>
+        <br>
+
+        <table id="term_table">
+            <tr>
+                <th>Term</th>
+                <th>Definition</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
