@@ -3,13 +3,28 @@
      
        {
            "term": "MM",
-           "def": "Middleman"
+           "def": "middleman"
+       },
+       {
+        "term": "NGF",
+        "def": "Not going first"
+       },
+       {
+        "term": "PP",
+        "def": "Paypal"
+       },
+       {
+        "term": "pooron",
+        "def": "Poor person that is also a moron"
        },
        {
         "term": "DWC",
-        "def": "Deal with caution"
-    }
-
+        "def": "deal with caution"
+       },
+       {
+        "term": "CW",
+        "def": "used on forums, means community warning or oftenly used for scam reports"
+       }
 
 
     ]
