@@ -1,22 +1,76 @@
 {
-    "scammers": [
-     
-       {
-           "name": "Perseus",
-           "reason": "tried to make people go first on 2 dominus, refused MM",
-           "alias": "N/A",
-           "other_info": "Crypto: N/A"
-       },
-
-       {
-        "name": "discord.gg/exchangings",
-        "reason": "scamming",
-        "alias": "",
-        "other_info": ""
-
-     }
-
-
-
-    ]
- }
+	"scammers": [
+		{
+			"name": "Perseus",
+			"reason": "Refusing to show proof of item ownership",
+			"alias": "",
+			"extra": ""
+		},
+		{
+			"name": "misterverified",
+			"reason": "Ghosts buyers after money is sent",
+			"alias": "",
+			"extra": "adoyy2021#7351 955683337492652032, Telegram: 5136761561, borutouzumakiii@protonmail.com, +63‪ 09?????7961‬, shoppy.gg/@mrverify, sinister.ly/User-Vouches, mc-market.org/members/352613"
+		},
+		{
+			"name": "Rover",
+			"reason": "Ghosts buyer after money is sent",
+			"alias": "",
+			"extra": "rover#6228 923830720143695883, bc1qyuqgw4r6dwg5jnzpzaletnfdu0swc03fzk85hw"
+		},
+		{
+			"name": "",
+			"reason": "Impersonator",
+			"alias": "",
+			"extra": "958525870996336703"
+		},
+		{
+			"name": "",
+			"reason": "Impersonator",
+			"alias": "",
+			"extra": "862945887582683148"
+		},
+		{
+			"name": "",
+			"reason": "Impersonator",
+			"alias": "",
+			"extra": "853815800661278760"
+		},
+		{
+			"name": "",
+			"reason": "Blames other people of double-spending, pretends to be a friend whose account was terminated to request money",
+			"alias": "",
+			"extra": "Duckie#6067 843876911758704640, vsc#3216 842880160004702218"
+		},
+		{
+			"name": "Nexoloft",
+			"reason": "Selective scammer",
+			"alias": "purpleplanet, purpleplanet510, justinthepro456",
+			"extra": "Nexoloft#2787 524087709585899522, purpleplanet#1612 958483281106575403, t.me/Nexoloft 765979009, bc1q2jcqc2xjm360kq0qwfh2hdm27nx2m20h0qzhp6, playerup.com/nexoloft, epicnpc.com/members/nexoloft.786647, gameflip.com/profile/us-east-1:b2090de7-3714-45d1-a1e0-32a09a00c56f, cracked.io/nexoloft, cracked.io/nexolofty, nulled.to/user/1899670-boxtrot, carding.store/profile/25560-nexoloft, robloxforum.com/members/nexoloft.77774"
+		},
+		{
+			"name": "Faded",
+			"reason": "Selective scammer",
+			"alias": "Fadez",
+			"extra": "! Faded#1400 755178817156546601"
+		},
+		{
+			"name": "",
+			"reason": "Blames other people of double-spending, pretends to be a friend whose account was terminated to request money",
+			"alias": "",
+			"extra": "coolkid4414#7530 839970263880695888"
+		},
+		{
+			"name": "Walterino",
+			"reason": "Ghosts buyer after money is sent; tends to discontinue products and re-born [sic] them later, making previous buyers repay",
+			"alias": "",
+			"extra": "strvyz#6030 616645121634598912, MT1dYFKiB2s5eNeTk3TLtSsmvioUkZYzvZ"
+		},
+        {
+			"name": "discord.gg/exchangings",
+			"reason": "scamming",
+			"alias": "",
+			"extra": "Cashapp: $CrimsonFlip, $JayIsMovingMad, Jay, Brett"
+		}
+	]
+}
