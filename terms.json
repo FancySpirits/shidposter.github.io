@@ -3,7 +3,7 @@
      
        {
            "term": "MM",
-           "def": "middleman"
+           "def": "Middlemen"
        },
        {
         "term": "NGF",
@@ -14,24 +14,24 @@
         "def": "Paypal"
        },
        {
-        "term": "pooron",
+        "term": "Pooron",
         "def": "Poor person that is also a moron"
        },
        {
         "term": "DWC",
-        "def": "deal with caution"
+        "def": "Deal with caution"
        },
        {
         "term": "CW",
-        "def": "used on forums, means community warning or oftenly used for scam reports"
+        "def": "Used on forums and discord servers and it means community warning and it's often given to users who have are involved have a sketchy background."
        },
        {
         "term": "Random",
-        "def": "insult used for not known members"
+        "def": "Insult given to users who aren't well known in community."
        },
        {
         "term": "Ropsten",
-        "def": "Test network, used in scams"
+        "def": "Ethereum Test Network often used on the wallet Metamask and is involved in a scam method (Avoid receiving ETH in such networks or similar ones)."
        },
        {
         "term": "DS/DP",
@@ -39,19 +39,27 @@
        },
        {
         "term": "addy",
-        "def": "crypto address"
+        "def": "Crypto address"
        },
        {
         "term": "dd",
-        "def": "deal dispute"
+        "def": "Deal dispute"
        },
        {
         "term": "cb",
-        "def": "chargeback"
+        "def": "Chargeback"
        },
        {
         "term": "tele",
-        "def": "telegram"
+        "def": "Telegram"
+       },
+        {
+        "term": "Method",
+        "def": "Typically a money method or a guide to do something."
+       },
+         {
+        "term": "TOS",
+        "def": "Terms of Service typically rules on a middlemen service."
        }
     ]
  }
