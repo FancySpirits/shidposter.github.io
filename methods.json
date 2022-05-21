@@ -1,1 +1,9 @@
-
+{
+    "terms": [
+     
+        {
+            "term": "Chargeback",
+            "def": "User charges back the money after recieving service/product"
+        }
+    ]
+ }
