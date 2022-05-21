@@ -24,8 +24,34 @@
        {
         "term": "CW",
         "def": "used on forums, means community warning or oftenly used for scam reports"
+       },
+       {
+        "term": "Random",
+        "def": "insult used for not known members"
+       },
+       {
+        "term": "Ropsten",
+        "def": "Test network, used in scams"
+       },
+       {
+        "term": "DS/DP",
+        "def": "Double spent"
+       },
+       {
+        "term": "addy",
+        "def": "crypto address"
+       },
+       {
+        "term": "dd",
+        "def": "deal dispute"
+       },
+       {
+        "term": "cb",
+        "def": "chargeback"
+       },
+       {
+        "term": "tele",
+        "def": "telegram"
        }
-
-
     ]
  }
